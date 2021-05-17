@@ -1,0 +1,66 @@
+[{
+   "name": "Edward Library",
+   "popularity":20,
+   "loc":[34.020061, -118.28386] 
+ },
+{
+   "name": "Plaza Fountain",
+   "popularity":60,
+   "loc":[34.020426, -118.283372] 
+ },
+{
+   "name": "VKC Library",
+   "popularity":65,
+   "loc":[34.021287, -118.283905] 
+ },
+{
+   "name": "Wilson Library",
+   "popularity":45,
+   "loc":[34.023943, -118.286185] 
+ },
+{
+   "name": "Hoose Library",
+   "popularity":40,
+   "loc":[34.01871, -118.286628] 
+ },
+{
+   "name": "Tutor Hall Café",
+   "popularity":75,
+   "loc":[34.020043, -118.289993] 
+ },
+{
+   "name": "USC Law Cafe",
+   "popularity":65,
+   "loc":[34.0187, -118.284422] 
+ },
+{
+   "name": "Leavey Library",
+   "popularity":90,
+   "loc":[34.02167, -118.282727] 
+ },
+{
+   "name": "USC Phy Buildi",
+   "popularity":60,
+   "loc":[34.021278, -118.286508] 
+ },
+{
+   "name": "Gener Fountain",
+   "popularity":30,
+   "loc":[34.022209, -118.283225] 
+ },
+{
+   "name": "Andrus fountain",
+   "popularity":35,
+   "loc":[34.020238, -118.290667] 
+ },
+{
+   "name": "Founders fount",
+   "popularity":40,
+   "loc":[34.022434, -118.283941] 
+ },
+{
+   "name": "my home",
+   "popularity":50,
+   "loc":[34.03902, -118.26269] 
+ }
+]
