@@ -42,22 +42,22 @@ public class get24 {
         arr[j] = temp;
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        char[] signArr = new char[]{'+', '-', '*', '/'};
-        List<char[]> signList = new ArrayList<>();
-        getSignPerm( signArr, 0, signList);
-        while ((line = reader.readLine()) != null) {
-
-            String[] s = line.split(" ");
-            int[] arr = new int[s.length];
-            for(int i = 0; i<arr.length; i++) arr[i] = Integer.parseInt(s[i]);
-
-            System.out.println(helper(arr, 0, signList));
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        char[] signArr = new char[]{'+', '-', '*', '/'};
+//        List<char[]> signList = new ArrayList<>();
+//        getSignPerm( signArr, 0, signList);
+//        while ((line = reader.readLine()) != null) {
+//
+//            String[] s = line.split(" ");
+//            int[] arr = new int[s.length];
+//            for(int i = 0; i<arr.length; i++) arr[i] = Integer.parseInt(s[i]);
+//
+//            System.out.println(helper(arr, 0, signList));
+//        }
+//    }
     private static void getSignPerm(char[] signArr, int index, List<char[]> signList){
         if(index >=4){
             signList.add(new char[]{signArr[0], signArr[1], signArr[2]});

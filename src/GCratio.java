@@ -41,19 +41,19 @@ public class GCratio {
         return c =='G' || c == 'C';
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        line = reader.readLine() ; {
-            char[] arr = line.toCharArray();
-
-            String line2 = reader.readLine();//read extra line
-            int window = Integer.parseInt(line2);
-            if(arr.length < window) System.out.println("");
-
-            helper(arr, window);
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        line = reader.readLine() ; {
+//            char[] arr = line.toCharArray();
+//
+//            String line2 = reader.readLine();//read extra line
+//            int window = Integer.parseInt(line2);
+//            if(arr.length < window) System.out.println("");
+//
+//            helper(arr, window);
+//        }
+//    }
 
 }

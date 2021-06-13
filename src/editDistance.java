@@ -33,17 +33,17 @@ public class editDistance {
         return dp[m][n];
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-
-            String line2 = reader.readLine(); //read extra line
-
-            System.out.println(helper(line, line2));
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//
+//            String line2 = reader.readLine(); //read extra line
+//
+//            System.out.println(helper(line, line2));
+//        }
+//    }
 
 
 }

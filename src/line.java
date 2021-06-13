@@ -8,17 +8,17 @@ public class line {
         return helper(m-1, n) + helper(m, n-1);
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-
-            String[] s = line.split(" ");
-            int m = Integer.parseInt(s[0]);
-            int n = Integer.parseInt(s[1]);
-            System.out.println(helper(m,n));
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//
+//            String[] s = line.split(" ");
+//            int m = Integer.parseInt(s[0]);
+//            int n = Integer.parseInt(s[1]);
+//            System.out.println(helper(m,n));
+//        }
+//    }
 
 }

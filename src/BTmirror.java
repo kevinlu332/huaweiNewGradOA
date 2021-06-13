@@ -23,14 +23,14 @@ public class BTmirror {
         return newNode;
     }
 
-    public static void main(String[] args){
-        TreeNode root = new TreeNode(4);
-        root.left = new TreeNode(8);
-        root.right = new TreeNode(2);
-        binaryTreeMirror(root);
-        System.out.println(root.val);
-        System.out.println(root.left.val);
-        System.out.println(root.right.val);
-    }
+//    public static void main(String[] args){
+//        TreeNode root = new TreeNode(4);
+//        root.left = new TreeNode(8);
+//        root.right = new TreeNode(2);
+//        binaryTreeMirror(root);
+//        System.out.println(root.val);
+//        System.out.println(root.left.val);
+//        System.out.println(root.right.val);
+//    }
 
 }

@@ -48,13 +48,13 @@ public class longestNumbers {
     }
 
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-
-            helper(line);
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//
+//            helper(line);
+//        }
+//    }
 }

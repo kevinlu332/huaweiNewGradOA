@@ -33,21 +33,21 @@ public class get7 {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        int max = Integer.MIN_VALUE;
-        List<Integer> list = new ArrayList<>();
-        while ((line = reader.readLine()) != null) {
-            int a = Integer.parseInt(line);
-            max = Math.max(max, a);
-            list.add(a);
-        }
-//        list.add(20);
-//        max = 20;
-        helper(max, list);
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        int max = Integer.MIN_VALUE;
+//        List<Integer> list = new ArrayList<>();
+//        while ((line = reader.readLine()) != null) {
+//            int a = Integer.parseInt(line);
+//            max = Math.max(max, a);
+//            list.add(a);
+//        }
+////        list.add(20);
+////        max = 20;
+//        helper(max, list);
+//    }
 
 
 
