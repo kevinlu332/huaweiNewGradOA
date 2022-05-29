@@ -20,23 +20,23 @@ public class OAq2 {
         return count;
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-            String[] s = line.split(" ");
-            int k = Integer.parseInt(s[1]);
-
-            String[] s2 = reader.readLine().split(" "); //read extra line
-            int[] arr = new int[s2.length];
-            for(int i = 0; i< arr.length; i++){
-                arr[i] = Integer.parseInt(s2[i]);
-            }
-
-            System.out.println(helper(k, arr));
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//            String[] s = line.split(" ");
+//            int k = Integer.parseInt(s[1]);
+//
+//            String[] s2 = reader.readLine().split(" "); //read extra line
+//            int[] arr = new int[s2.length];
+//            for(int i = 0; i< arr.length; i++){
+//                arr[i] = Integer.parseInt(s2[i]);
+//            }
+//
+//            System.out.println(helper(k, arr));
+//        }
+//    }
 
 
 }

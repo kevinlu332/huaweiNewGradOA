@@ -38,11 +38,11 @@ public class oneSideWays {
 
 
     }
-    public static void main(String[] args){
-        int[] count = new int[]{1,0,1,1,0,0};
-        int ans = oneSideWaysCount(count);
-        System.out.println(ans);
-    }
+//    public static void main(String[] args){
+//        int[] count = new int[]{1,0,1,1,0,0};
+//        int ans = oneSideWaysCount(count);
+//        System.out.println(ans);
+//    }
 
 
 }

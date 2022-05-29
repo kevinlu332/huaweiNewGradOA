@@ -13,15 +13,15 @@ public class nonRepeatInt {
         return convertToInt(arr, endNext);
     }
 
-    public static void main(String[] args) throws IOException {
-        //read line by line:
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-            char[] arr = line.toCharArray();
-            System.out.println(helper(arr));
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//        //read line by line:
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//            char[] arr = line.toCharArray();
+//            System.out.println(helper(arr));
+//        }
+//    }
     private static void reverse(char[] arr){
         int i = 0, j = arr.length -1;
         while(i<j){

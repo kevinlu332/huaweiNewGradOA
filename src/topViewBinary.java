@@ -22,7 +22,9 @@ public class topViewBinary {
     /*
       traverse the root,
           if(root==null    return;
-          if(map not have hd), make one; if make has: if(map.get(hd).vd > vd ) map.put(hd, new Cell(root, vd));
+          if(map not have hd), make one;
+          if make has:
+                if(map.get(hd).vd > vd ) map.put(hd, new Cell(root, vd));
             left, right
     */
             Map<Integer, Cell> map = new HashMap<>();
@@ -56,13 +58,13 @@ public class topViewBinary {
             }
         }
 
-    public static void main(String[] args){
-          TreeNode root=  new TreeNode(1);
-          root.left = new TreeNode(2);
-          root.left.left = new TreeNode (4);
-          root.right = new TreeNode(3);
-          root.right.right = new TreeNode(7);
-          topView(root);
-    }
+//    public static void main(String[] args){
+//          TreeNode root=  new TreeNode(1);
+//          root.left = new TreeNode(2);
+//          root.left.left = new TreeNode (4);
+//          root.right = new TreeNode(3);
+//          root.right.right = new TreeNode(7);
+//          topView(root);
+//    }
 
 }

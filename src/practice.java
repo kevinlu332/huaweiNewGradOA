@@ -8,13 +8,13 @@ public class practice {
         return 0;
     }
 
-    public static void main(String[] args) throws IOException {
-        int x  = 0;
-        for(int i = 0; i < 5 ; i++){
-            x= i;
-        }
-        System.out.println(x);
-    }
+//    public static void main(String[] args) throws IOException {
+//        int x  = 0;
+//        for(int i = 0; i < 5 ; i++){
+//            x= i;
+//        }
+//        System.out.println(x);
+//    }
 
         /*
         method 2: Scanner

@@ -41,22 +41,22 @@ public class OAq3 {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = reader.readLine();
-        String[] s = line.split(",");
-//        String[] s = new String[]{"110", "110", "001"};
-        int[][] matrix = new int[s.length][s[0].length()];
-        for(int i = 0; i < s.length; i++){
-            char[] arr = s[i].toCharArray();
-            for(int j = 0; j < arr.length; j++){
-                matrix[i][j] = arr[j] - '0';
-            }
-        }
-        System.out.println(helper(matrix));
-
-    }
+//    public static void main(String[] args) throws IOException {
+//
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = reader.readLine();
+//        String[] s = line.split(",");
+////        String[] s = new String[]{"110", "110", "001"};
+//        int[][] matrix = new int[s.length][s[0].length()];
+//        for(int i = 0; i < s.length; i++){
+//            char[] arr = s[i].toCharArray();
+//            for(int j = 0; j < arr.length; j++){
+//                matrix[i][j] = arr[j] - '0';
+//            }
+//        }
+//        System.out.println(helper(matrix));
+//
+//    }
 
 
 }

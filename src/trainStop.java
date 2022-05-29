@@ -77,23 +77,23 @@ public class trainStop {
         return ttl;
     }
 
-    public static void main(String[] args) throws IOException {
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-            int a = Integer.parseInt(line);
-
-            String[] s2 = reader.readLine().split(" "); //read extra line
-            int[] arr = new int[s2.length];
-            for(int i = 0; i<s2.length; i++){
-                arr[i] = Integer.parseInt(s2[i]);
-            }
-            //int[] arr=  new int[]{1,2,3};
-            Deque<Integer> deque = new ArrayDeque<>();
-            helper(arr, deque);
-        }
-    }
+//    public static void main(String[] args) throws IOException {
+//
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String line = null;
+//        while ((line = reader.readLine()) != null) {
+//            int a = Integer.parseInt(line);
+//
+//            String[] s2 = reader.readLine().split(" "); //read extra line
+//            int[] arr = new int[s2.length];
+//            for(int i = 0; i<s2.length; i++){
+//                arr[i] = Integer.parseInt(s2[i]);
+//            }
+//            //int[] arr=  new int[]{1,2,3};
+//            Deque<Integer> deque = new ArrayDeque<>();
+//            helper(arr, deque);
+//        }
+//    }
 
 
 }
